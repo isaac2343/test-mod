@@ -20,8 +20,6 @@ public class ModItems {
         TMC.LOGGER.info("Registering Mod Items for " + TMC.Mod_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(PINK_GARNET);
-            entries.add(RAW_PINK_GARNET);
         });
     }
 }

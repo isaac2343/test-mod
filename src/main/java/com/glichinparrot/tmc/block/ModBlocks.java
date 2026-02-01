@@ -41,8 +41,6 @@ public class ModBlocks {
         TMC.LOGGER.info("Registering Mod Blocks for" + TMC.Mod_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.PINK_GARNET_BLOCK);
-            entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
         });
 
     }

@@ -3,5 +3,8 @@
   "item.tmc.raw_pink_garnet": "Raw Pink Garnet",
 
   "block.tmc.pink_garnet_block": "Block of Pink Garnet",
-  "block.tmc.raw_pink_garnet_block": "Block of Raw Pink Garnet"
+  "block.tmc.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+
+  "itemgroup.TMC.pink_garnet_items": "Pink Garnet Items",
+  "itemgroup.TMC.pink_garnet_blocks": "Pink Garnet Blocks"
 }
