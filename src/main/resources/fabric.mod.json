@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "tmc",
+	"version": "${version}",
+	"name": "TMC",
+	"description": "TMC minecraft mod",
+	"authors": [
+		"glichinparrot"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/"
+	},
+	"license": "MIT",
+	"icon": "assets/tmc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.glichinparrot.tmc.TMC"
+		],
+		"fabric-datagen": [
+			"com.glichinparrot.tmc.TMCDataGenerator"
+		],
+        "client": [
+            "com.glichinparrot.tmc.TMCClient"
+        ]
+	},
+	"mixins": [
+		"tmc.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
