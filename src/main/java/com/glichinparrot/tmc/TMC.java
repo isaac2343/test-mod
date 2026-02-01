@@ -1,5 +1,6 @@
 package com.glichinparrot.tmc;
 
+import com.glichinparrot.tmc.block.ModBlocks;
 import com.glichinparrot.tmc.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,5 +13,6 @@ public class TMC implements ModInitializer {
 	@Override
 	public void onInitialize() {
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }
