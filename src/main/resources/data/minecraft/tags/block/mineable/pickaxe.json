@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tmc:pink_garnet_block",
+    "tmc:raw_pink_garnet_block",
+    "tmc:pink_garnet_ore",
+    "tmc:pink_garnet_deepslate_ore"
+  ]
+}
